@@ -1,0 +1,16 @@
+INPUT(
+./obj/main.o
+./obj/command.o
+./obj/glyph.o
+./obj/iterator.o
+./obj/visitor.o
+./obj/window.o
+./obj/commandnew.o
+./obj/commandsave.o
+./obj/charactor.o
+./obj/picture.o
+./obj/table.o
+./obj/col.o
+./obj/page.o
+./obj/row.o
+);
