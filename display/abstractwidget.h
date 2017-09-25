@@ -5,6 +5,7 @@
 
 class AbstractWidget : public QWidget
 {
+    Q_OBJECT
 public:
     AbstractWidget();
 };

@@ -10,8 +10,20 @@ QT += widgets
 
 # Input
 SOURCES += main.cpp \
-    abstract/abstractwidget.cpp
+    display/window/window.cpp \
+    display/abstractwidget.cpp \
+    factoy/widgetfactory.cpp \
+    factoy/flyweightfactory.cpp \
+    display/glyph/glyph.cpp \
+    display/panel/panel.cpp
 
 HEADERS += \
-    abstract/abstractwidget.h
+    display/window/window.h \
+    display/abstractwidget.h \
+    factoy/widgetfactory.h \
+    factoy/flyweightfactory.h \
+    display/glyph/glyph.h \
+    display/panel/panel.h \
+    display/widgetlist.h \
+    global.h
 
